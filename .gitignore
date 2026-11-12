@@ -1,0 +1,8 @@
+*.py
+*.csv
+*.vcd
+lpf_sim
+sim
+.DS_Store
+fir_low_24.v
+fir_low_24_tb.v
