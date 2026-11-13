@@ -35,7 +35,7 @@ initial begin
 end
 
 assign sum = coff[0]* x_spl[0] + // combinational (parallel) evaluation
-            coff[1]* x_spl[1] + // maybe update to generate block so nr-taps can be varied
+            coff[1]* x_spl[1] + // maybe update to generate-block so nr-taps can be varied
             coff[2]* x_spl[2] +  
             coff[3]* x_spl[3] +
             coff[4]* x_spl[4] +
