@@ -40,7 +40,7 @@ x_in ──► [x0]─►[x1]─►[x2]─► … ─►[x23]     24-stage shift
 
 ### Coefficient design
 
-The coefficients were designed in MATLAB FDATool with the **equiripple method**. They were then quantized to 16-bit signed Q15 and exported to `taps.hex`. Negative taps are kept as two's complement and handled by signed arithmetic.
+The coefficients were designed in MATLAB FDATool with the **equiripple method**. They were then quantized to 16-bit signed and exported to `taps.hex`. Negative taps are kept as two's complement and handled by signed arithmetic.
 
 ## Verification
 
