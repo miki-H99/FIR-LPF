@@ -49,10 +49,10 @@ module FIRlow24_tb;
 
         $readmemh("sin_210kHz.hex", sample); // 8-bit sine test vector
 
-        rst_n = 0; // async reset
+        rst_n = 0; // starting reset
         sample_in = 0;
         x_in = 0;
-        #20;
+        #20; // intial state settling-time buffer
         rst_n = 1; // ending reset
 
         for (i=0; i < N; i= i + 1) begin
